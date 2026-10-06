@@ -97,7 +97,7 @@ public class ServiceMetier {
                     }
                     System.out.println(personne_ID);
                    
-                    outputPersonnes.add(personneContainer);
+                    outputPersonnes.add(personneContainer.get("personnes"));
                 }
                 
                 outputClient.add("personnes", outputPersonnes);
