@@ -1,0 +1,8 @@
+fr\insalyon\waso\util\exception\DBException.class
+fr\insalyon\waso\util\JsonServletHelper.class
+fr\insalyon\waso\util\JsonHttpClient.class
+fr\insalyon\waso\util\JsonHttpClient$Parameter.class
+fr\insalyon\waso\util\exception\ServiceIOException.class
+fr\insalyon\waso\util\exception\ServiceException.class
+fr\insalyon\waso\util\DBConnection.class
+fr\insalyon\waso\util\MicroCasFilter.class
