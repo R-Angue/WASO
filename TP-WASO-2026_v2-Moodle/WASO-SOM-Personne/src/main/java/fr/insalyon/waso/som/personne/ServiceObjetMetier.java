@@ -27,6 +27,24 @@ public class ServiceObjetMetier {
         this.dBConnection.close();
     }
 
+    public void getPersonneParId(Integer personneId) throws ServiceException {
+        try {
+            List<Object[]> personne = this.dBConnection.launchQuery("SELECT PersonneID, Nom, Prenom, Mail FROM PERSONNE WHERE PersonneID = ? ", personneId);
+
+            JsonObjectBuilder jsonItem = Json.createObjectBuilder();
+
+            for (Object[] row : personne) {
+                jsonItem.add("id", (Integer) row[0]);
+                jsonItem.add("nom", (String) row[1]);
+                jsonItem.add("prenom", (String) row[2]);
+                jsonItem.add("mail", (String) row[3]);
+            }
+            this.container.add("personnes", jsonItem);
+        } catch (DBException ex) {
+            throw JsonServletHelper.ServiceObjectMetierExecutionException("Personne", "getListePersonne", ex);
+        }
+    }
+    
     public void getListePersonne() throws ServiceException {
         try {
             List<Object[]> listePersonne = this.dBConnection.launchQuery("SELECT PersonneID, Nom, Prenom, Mail FROM PERSONNE ORDER BY PersonneID");
@@ -49,6 +67,9 @@ public class ServiceObjetMetier {
         } catch (DBException ex) {
             throw JsonServletHelper.ServiceObjectMetierExecutionException("Personne", "getListePersonne", ex);
         }
+        
     }
+    
+    
 
 }
