@@ -1,7 +1,7 @@
-C:\Temp\TP-WASO-2026_v2-Moodle\TP-WASO-2026_v2-Moodle\WASO-common\src\main\java\fr\insalyon\waso\util\DBConnection.java
-C:\Temp\TP-WASO-2026_v2-Moodle\TP-WASO-2026_v2-Moodle\WASO-common\src\main\java\fr\insalyon\waso\util\exception\DBException.java
-C:\Temp\TP-WASO-2026_v2-Moodle\TP-WASO-2026_v2-Moodle\WASO-common\src\main\java\fr\insalyon\waso\util\exception\ServiceException.java
-C:\Temp\TP-WASO-2026_v2-Moodle\TP-WASO-2026_v2-Moodle\WASO-common\src\main\java\fr\insalyon\waso\util\exception\ServiceIOException.java
-C:\Temp\TP-WASO-2026_v2-Moodle\TP-WASO-2026_v2-Moodle\WASO-common\src\main\java\fr\insalyon\waso\util\JsonHttpClient.java
-C:\Temp\TP-WASO-2026_v2-Moodle\TP-WASO-2026_v2-Moodle\WASO-common\src\main\java\fr\insalyon\waso\util\JsonServletHelper.java
-C:\Temp\TP-WASO-2026_v2-Moodle\TP-WASO-2026_v2-Moodle\WASO-common\src\main\java\fr\insalyon\waso\util\MicroCasFilter.java
+C:\Temp\WASO\TP-WASO-2026_v2-Moodle\WASO-common\src\main\java\fr\insalyon\waso\util\DBConnection.java
+C:\Temp\WASO\TP-WASO-2026_v2-Moodle\WASO-common\src\main\java\fr\insalyon\waso\util\exception\DBException.java
+C:\Temp\WASO\TP-WASO-2026_v2-Moodle\WASO-common\src\main\java\fr\insalyon\waso\util\exception\ServiceException.java
+C:\Temp\WASO\TP-WASO-2026_v2-Moodle\WASO-common\src\main\java\fr\insalyon\waso\util\exception\ServiceIOException.java
+C:\Temp\WASO\TP-WASO-2026_v2-Moodle\WASO-common\src\main\java\fr\insalyon\waso\util\JsonHttpClient.java
+C:\Temp\WASO\TP-WASO-2026_v2-Moodle\WASO-common\src\main\java\fr\insalyon\waso\util\JsonServletHelper.java
+C:\Temp\WASO\TP-WASO-2026_v2-Moodle\WASO-common\src\main\java\fr\insalyon\waso\util\MicroCasFilter.java
